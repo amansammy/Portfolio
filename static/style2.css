@@ -1,0 +1,333 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@media only screen and (max-width: 600px) {
+  .heading {
+    width: 90% !important;
+  }
+
+  .profileHeading {
+    font-size: 2rem !important;
+  }
+
+  .profileContent {
+    font-size: 1.3rem !important;
+    font-weight: 400 !important;
+  }
+
+  .pageInner {
+    width: 100% !important;
+  }
+
+  .page {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+
+  .pageHeading {
+    position: static !important;
+    font-size: 3.2rem !important;
+    width: 100%;
+    text-align: center;
+  }
+
+  .pageInner {
+    padding-top: 40px !important;
+    padding-bottom: 70px !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+
+  .middleLine {
+    height: 600px !important;
+  }
+
+  .eduText {
+    width: 150px !important;
+  }
+}
+
+.content {
+  width: 100%;
+  /* border-left: 1px solid black;
+    border-right: 1px solid black; */
+  height: 100%;
+  margin: 0 auto;
+}
+
+.heading {
+  width: 60%;
+  margin: 0 auto;
+  min-height: 100vh;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.profileImage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.profileImage img {
+  width: 200px;
+}
+
+.profileHeading {
+  margin-top: 20px !important;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+.profileContent {
+  margin-top: 50px !important;
+  margin: 0 auto;
+  font-weight: 300;
+  font-size: 2rem;
+  text-align: justify;
+}
+
+.page {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.skillsPage {
+  background: linear-gradient(
+    180deg,
+    rgba(218, 218, 218, 1) 0%,
+    rgba(136, 136, 136, 1) 100%
+  );
+}
+
+.educationPage {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 111, 111, 1) 0%,
+    rgba(255, 152, 124, 1) 100%
+  );
+}
+
+.projectsPage {
+  background: linear-gradient(
+    149deg,
+    rgba(148, 255, 196, 1) 0%,
+    rgba(211, 255, 226, 1) 100%
+  );
+}
+
+.pageInner {
+  position: relative;
+  margin: 0 auto;
+  width: 70%;
+  height: 100%;
+  background: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  padding-bottom: 150px;
+  padding-top: 150px;
+  gap: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.pageHeading {
+  font-size: 10rem;
+  font-weight: 800;
+  font-style: normal;
+  position: absolute;
+  top: -100px;
+  text-shadow: 5px 5px white;
+}
+
+.headingLeft {
+  left: 0;
+}
+
+.headingRight {
+  right: 0;
+}
+
+.skill {
+  min-width: 300px;
+  width: 25%;
+  height: 370px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.13);
+  position: relative;
+  transition: transform 0.2s;
+}
+
+.skill:hover {
+  transform: scale(1.05);
+}
+
+.skillsFrontEnd {
+  background: linear-gradient(
+    166deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(232, 214, 158, 1) 100%,
+    rgba(174, 238, 254, 1) 122%
+  );
+}
+
+.skillsBackEnd {
+  background: linear-gradient(
+    166deg,
+    rgba(232, 178, 158, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.skillsDesign {
+  background: linear-gradient(
+    166deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(158, 232, 203, 1) 70%
+  );
+}
+
+.titleSkillsFrontEnd {
+  font-weight: 700;
+  font-size: 2rem;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  color: black;
+}
+
+.individualSkill {
+  position: absolute;
+  font-style: normal;
+  font-weight: 500;
+  color: black;
+  left: 15px;
+}
+
+.loadingBar {
+  position: absolute;
+  width: 100%;
+  padding: 10px;
+}
+
+.topLoadingBar {
+  top: 95px;
+}
+
+.topSkill {
+  top: 65px;
+}
+
+.midSkill {
+  top: 165px;
+}
+
+.midLoadingBar {
+  top: 195px;
+}
+
+.bottomSkill {
+  top: 265px;
+}
+
+.bottomLoadingBar {
+  top: 295px;
+}
+
+.middleLine {
+  width: 15px;
+  height: 600px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 111, 111, 1) 0%,
+    rgba(255, 152, 124, 1) 100%
+  );
+  border-radius: 20px;
+  position: relative;
+  border: 3px solid black;
+}
+
+.dot {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: black;
+  border-radius: 50%;
+  left: -10px;
+  border: 5px solid black;
+}
+
+.left30px {
+  left: 30px;
+}
+
+.eduText {
+  position: absolute;
+  width: 300px;
+  font-size: 1.5rem;
+}
+
+.textRight {
+  text-align: right;
+}
+
+.textLeft {
+  text-align: left;
+}
+
+.yearText {
+  position: absolute;
+}
+
+.top35px {
+  top: 35px;
+}
+
+.top50px {
+  top: 50px;
+}
+
+.top250px {
+  top: 250px;
+}
+
+.top230px {
+  top: 230px;
+}
+
+.bottom50px {
+  bottom: 50px;
+}
+
+.bottom30px {
+  bottom: 30px;
+}
+
+.left-55px {
+  left: -55px;
+}
+
+.left30px {
+  left: 30px;
+}
+
+.right30px {
+  right: 30px;
+}
+
+.boldSmall {
+  font-weight: 800;
+  font-size: 1rem;
+}
+
+.lightMedium {
+  font-weight: 300;
+  font-size: 1.2rem;
+}

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aman Sammy</title>
+    <link rel="stylesheet" href="https://unpkg.com/7.css" />
+    <link rel="stylesheet" href="static/style.css" />
+    <link rel="stylesheet" href="static/style2.css" />
+  </head>
+  <body>
+    <div id="bgchange">
+      <div class="bgimg" id="back1"></div>
+      <div class="bgimg" id="back2"></div>
+      <div class="bgimg" id="back3"></div>
+      <div class="bgimg" id="back4"></div>
+      <div class="bgimg" id="back5"></div>
+    </div>
+    <div class="windows">
+      <div class="loginScreen">
+        <div class="userAccountLoginScreen"><span>Aman Sammy</span></div>
+      </div>
+      <div class="desktop">
+        <div class="icons">
+          <div class="userIcon icon" id="userIcon">
+            <span>AboutMe</span>
+          </div>
+          <div class="skillsIcon icon" id="userIcon"><span>Skills</span></div>
+          <div class="educationIcon icon" id="userIcon">
+            <span>Education</span>
+          </div>
+          <div class="projectsIcon icon" id="userIcon">
+            <span>Projects</span>
+          </div>
+          <div class="resumeIcon icon" id="userIcon"><span>Resume</span></div>
+        </div>
+
+        <div class="individualWindows">
+          <div class="window glass window1" id="windowElement">
+            <div class="title-bar">
+              <div class="title-bar-text">About Me</div>
+              <div class="title-bar-controls">
+                <button aria-label="Minimize" class="minimizeButton"></button>
+                <button aria-label="Maximize" class="maximizeButton"></button>
+                <button
+                  aria-label="Restore"
+                  class="restoreButton dnone"
+                ></button>
+                <button aria-label="Close" class="closeButton"></button>
+              </div>
+            </div>
+            <div class="window-body aboutMeBody">
+              <!--               <div class="aboutBody">
+                <div class="wrapper">
+                  <div class="buttonWrapper">
+                    <button
+                      class="tab-button active"
+                      style="border-top-left-radius: 10px"
+                      data-id="home"
+                    >
+                      About Me
+                    </button>
+                    <button class="tab-button" data-id="about">Skills</button>
+                    <button
+                      class="tab-button"
+                      style="border-top-right-radius: 10px"
+                      data-id="contact"
+                    >
+                      Contact
+                    </button>
+                  </div>
+                  <div class="contentWrapper">
+                    <div class="content active" id="home">
+                      <div style="display: flex; justify-content: center">
+                        <img class="logoImg"
+                          src="/Portfolio/imgs/logo.png"
+                          alt=""
+                          style="
+                            width: 150px;
+                            margin-bottom: 10px;
+                          "
+                        />
+                      </div>
+                      <h4 id="line1">Hi, I'm Aman.</h4>
+                      <p id="line2">I design & build user interfaces.</p>
+                      <div class="aboutFlex">
+                        <div class="leftContent">
+                          I'm obsessed with designing, creating and making
+                          things better. I have been creating since the age of
+                          7 when I was first introduced to Visual Studio
+                          Basic, which only led to my love for designing
+                          skyrocket.<br /><br />
+                          Technologies that I've been working with recently: <br><br>
+                          <p style="text-align: left;">
+                          
+                          > JavaScript (ES6+) <br>
+                          > HTML5 <br>
+                          > CSS3 <br>
+                            </p>
+                        </div>
+                        <div class="rightContent"> 
+                          <img src="/Portfolio/imgs/logos/html5.png" alt="">
+                          <img src="/Portfolio/imgs/logos/css.png" alt="">
+                          <img src="/Portfolio/imgs/logos/js.png" alt="">
+                          <img src="/Portfolio/imgs/logos/vscode.png" alt="">
+                          <img src="/Portfolio/imgs/logos/ps.png" alt="">
+                          <img src="/Portfolio/imgs/logos/pr.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="content" id="about">
+                    
+                  </div>
+                  <div class="content" id="contact">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dignissimos sit incidunt nostrum? Magni, quam vero, magnam
+                    odio similique ipsam minima et repellat rerum cupiditate
+                    totam in repudi
+                  </div>
+                </div>
+              </div> -->
+              <div class="windowInner">
+                <div class="profileContent">
+                  <div class="heading">
+                    <div class="profileImage">
+                      <img src="imgs/amanProfilePic.png" alt="" />
+                    </div>
+                    <div class="profileHeading">
+                      <p>Hi, I'm Aman.</p>
+                      <p>I am a Web Developer.</p>
+                    </div>
+                    <div class="profileContent">
+                      <p>
+                        I'm obsessed with designing, creating and making things
+                        better. I have been creating since the age of 7 when I
+                        was first introduced to Visual Studio Basic, which only
+                        led to my love for designing skyrocket.
+                        <br />
+                        <br />
+                        I prefer to keep learning, do interesting things that
+                        matter, and continue challenging myself. I am easily
+                        inspired, and more than willing to follow my fascinating
+                        intuitions, wherever they take me. I always have an
+                        impulsive need to come up with new ideas, and act on
+                        them. I am also a fast learner, and am able to pick up
+                        on new skills very quickly.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="taskbar">
+        <div class="activeWindow">
+          <div class="itemTaskbar">
+            <span><img class="itemTaskbarImage" /></span>
+          </div>
+        </div>
+        <div class="showDesktop">
+          <img src="imgs/show_desktop.png" alt="" class="showDesktopImage" />
+        </div>
+        <div class="control-center">
+          <img src="imgs/batteryIcon.png" alt="" />
+          <img src="imgs/networkIcon.png" alt="" />
+          <img src="imgs/volumeIcon.png" alt="" />
+        </div>
+        <div class="clock">9:58 PM</div>
+        <div id="blur-overlay">
+          <div></div>
+        </div>
+        <div class="startButtonContainer">
+          <div class="startMenu" id="startMenu">
+            <div class="startMenuUserIcon"></div>
+            <div class="startMenuLeftContainer">
+              <p>About Me</p>
+              <p>Resume</p>
+              <p>Education</p>
+              <p>Projects</p>
+              <p>Resume</p>
+              <p>Made by</p>
+              <p>Aman Sammy</p>
+              <hr />
+              <p style="margin-top: -5px; padding-left: 30px; font-weight: 600">
+                All Programs
+              </p>
+            </div>
+            <div class="startMenuRightContainer">
+              <p>Aman Sammy</p>
+              <p>Downloads</p>
+              <hr />
+              <p>Computer</p>
+              <hr />
+              <p>Control Panel</p>
+              <p>Devices and Printers</p>
+              <p>Default Programs</p>
+            </div>
+            <div class="startMenuBottomLeftContainer">
+              <p>Search programs and files</p>
+            </div>
+            <div class="startMenuBottomRightContainer">
+              <button class="logoutButton">Log out</button>
+            </div>
+          </div>
+          <div class="startButton" title="Start"></div>
+          <div class="startButtonHover" title="Start"></div>
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/time.js"></script>
+  </body>
+</html>
