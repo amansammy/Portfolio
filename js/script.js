@@ -13,6 +13,23 @@ const desktop = document.querySelector(".individualWindows");
 const userLoginButton = document.querySelector(".userAccountLoginScreen");
 const userLoginScreen = document.querySelector(".loginScreen");
 const logoutButton = document.querySelector(".logoutButton");
+const desktopMain = document.querySelector(".desktop");
+const bgImage1 = document.getElementById("back1");
+const bgImage2 = document.getElementById("back2");
+const bgImage3 = document.getElementById("back3");
+const bgImage4 = document.getElementById("back4");
+const bgImage5 = document.getElementById("back5");
+
+window.addEventListener("load", (e) => {
+  const style = window.getComputedStyle(desktopMain);
+  const flop = style.getPropertyValue("height");
+  console.log(flop);
+  bgImage1.style.height = flop;
+  bgImage2.style.height = flop;
+  bgImage3.style.height = flop;
+  bgImage4.style.height = flop;
+  bgImage5.style.height = flop;
+});
 
 userLoginButton.addEventListener("click", (e) => {
   userLoginScreen.classList.add("dnone");
@@ -74,7 +91,7 @@ icon1.addEventListener("click", (e) => {
     itemTaskbar.classList.remove("dnone");
     itemTaskbar.classList.add("dblock");
     itemTaskbar.classList.add("dflex");
-    itemTaskbar.innerHTML = `<img src = "/Portfolio/imgs/userIcon.png" class="itemTaskbarImage">`;
+    itemTaskbar.innerHTML = `<img src = "imgs/userIcon.png" class="itemTaskbarImage">`;
   }
 });
 
