@@ -27,101 +27,32 @@
           <div class="userIcon icon" id="userIcon">
             <span>AboutMe</span>
           </div>
-          <div class="skillsIcon icon" id="userIcon"><span>Skills</span></div>
-          <div class="educationIcon icon" id="userIcon">
+          <div class="skillsIcon icon" id="skillsIcon"><span>Skills</span></div>
+          <div class="educationIcon icon" id="educationIcon">
             <span>Education</span>
           </div>
-          <div class="projectsIcon icon" id="userIcon">
+          <div class="projectsIcon icon" id="projectsIcon">
             <span>Projects</span>
           </div>
-          <div class="resumeIcon icon" id="userIcon"><span>Resume</span></div>
+          <div class="resumeIcon icon" id="resumeIcon"><span>Resume</span></div>
         </div>
 
         <div class="individualWindows">
-          <div class="window glass window1" id="windowElement">
+          <div class="window glass userWindow" id="userWindow">
             <div class="title-bar">
               <div class="title-bar-text">About Me</div>
               <div class="title-bar-controls">
-                <button aria-label="Minimize" class="minimizeButton"></button>
-                <button aria-label="Maximize" class="maximizeButton"></button>
+                <button aria-label="Minimize" class="userMinimizeButton"></button>
+                <button aria-label="Maximize" class="userMaximizeButton"></button>
                 <button
                   aria-label="Restore"
-                  class="restoreButton dnone"
+                  class="userRestoreButton dnone"
                 ></button>
-                <button aria-label="Close" class="closeButton"></button>
+                <button aria-label="Close" class="userCloseButton"></button>
               </div>
             </div>
             <div class="window-body aboutMeBody">
-              <!--               <div class="aboutBody">
-                <div class="wrapper">
-                  <div class="buttonWrapper">
-                    <button
-                      class="tab-button active"
-                      style="border-top-left-radius: 10px"
-                      data-id="home"
-                    >
-                      About Me
-                    </button>
-                    <button class="tab-button" data-id="about">Skills</button>
-                    <button
-                      class="tab-button"
-                      style="border-top-right-radius: 10px"
-                      data-id="contact"
-                    >
-                      Contact
-                    </button>
-                  </div>
-                  <div class="contentWrapper">
-                    <div class="content active" id="home">
-                      <div style="display: flex; justify-content: center">
-                        <img class="logoImg"
-                          src="/Portfolio/imgs/logo.png"
-                          alt=""
-                          style="
-                            width: 150px;
-                            margin-bottom: 10px;
-                          "
-                        />
-                      </div>
-                      <h4 id="line1">Hi, I'm Aman.</h4>
-                      <p id="line2">I design & build user interfaces.</p>
-                      <div class="aboutFlex">
-                        <div class="leftContent">
-                          I'm obsessed with designing, creating and making
-                          things better. I have been creating since the age of
-                          7 when I was first introduced to Visual Studio
-                          Basic, which only led to my love for designing
-                          skyrocket.<br /><br />
-                          Technologies that I've been working with recently: <br><br>
-                          <p style="text-align: left;">
-                          
-                          > JavaScript (ES6+) <br>
-                          > HTML5 <br>
-                          > CSS3 <br>
-                            </p>
-                        </div>
-                        <div class="rightContent"> 
-                          <img src="/Portfolio/imgs/logos/html5.png" alt="">
-                          <img src="/Portfolio/imgs/logos/css.png" alt="">
-                          <img src="/Portfolio/imgs/logos/js.png" alt="">
-                          <img src="/Portfolio/imgs/logos/vscode.png" alt="">
-                          <img src="/Portfolio/imgs/logos/ps.png" alt="">
-                          <img src="/Portfolio/imgs/logos/pr.png" alt="">
-                      </div>
-                    </div>
-                  </div>
-                  <div class="content" id="about">
-                    
-                  </div>
-                  <div class="content" id="contact">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dignissimos sit incidunt nostrum? Magni, quam vero, magnam
-                    odio similique ipsam minima et repellat rerum cupiditate
-                    totam in repudi
-                  </div>
-                </div>
-              </div> -->
-              <div class="windowInner">
+              <div class="aboutMeWindowInner">
                 <div class="profileContent">
                   <div class="heading">
                     <div class="profileImage">
@@ -153,14 +84,152 @@
               </div>
             </div>
           </div>
+          <div class="window glass educationWindow" id="educationWindow">
+            <div class="title-bar">
+              <div class="title-bar-text">About Me</div>
+              <div class="title-bar-controls">
+                <button aria-label="Minimize" class="educationMinimizeButton"></button>
+                <button aria-label="Maximize" class="educationMaximizeButton"></button>
+                <button
+                  aria-label="Restore"
+                  class="educationRestoreButton dnone"
+                ></button>
+                <button aria-label="Close" class="educationCloseButton"></button>
+              </div>
+            </div>
+            <div class="window-body aboutMeBody">
+              <div class="educationWindowInner" id="educationWindowInner">
+                <div class="page educationPage">
+                  <div class="pageInner">
+                    <div class="pageHeading headingRight">EDUCATION</div>
+                    <div class="middleLine">
+                      <div class="dot top50px"></div>
+                      <div class="yearText top50px left-55px">
+                        <p class="boldSmall">2015</p>
+                      </div>
+                      <div class="eduText top35px left30px textLeft">
+                        <p class="boldSmall">10+2 (HIGH SCHOOL)<br />85%</p>
+                        <p>Vishal Bharti Public School</p>
+                        <p class="lightMedium">Delhi, India</p>
+                      </div>
+                      <div class="dot top250px"></div>
+                      <div class="yearText top250px left30px">
+                        <p class="boldSmall">2019</p>
+                      </div>
+                      <div class="eduText right30px top230px textRight">
+                        <p class="boldSmall">B.Tech (IT)<br />7.8CGPA</p>
+                        <p>Guru Tegh Bahadur Institute of Technology</p>
+                        <p class="lightMedium">Delhi, India</p>
+                      </div>
+                      <div class="dot bottom50px"></div>
+                      <div class="yearText bottom50px left-55px">
+                        <p class="boldSmall">2021</p>
+                      </div>
+                      <div class="eduText left30px bottom30px textLeft">
+                        <p class="boldSmall">Data Analytics for Business<br />3.4GPA</p>
+                        <p>St. Clair College</p>
+                        <p class="lightMedium">Windsor, Ontario, Canada</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+
+              </div>
+          <div class="window glass skillsWindow" id="skillsWindow">
+            <div class="title-bar">
+              <div class="title-bar-text">About Me</div>
+              <div class="title-bar-controls">
+                <button aria-label="Minimize" class="skillsMinimizeButton"></button>
+                <button aria-label="Maximize" class="skillsMaximizeButton"></button>
+                <button
+                  aria-label="Restore"
+                  class="skillsRestoreButton dnone"
+                ></button>
+                <button aria-label="Close" class="skillsCloseButton"></button>
+              </div>
+            </div>
+            <div class="window-body aboutMeBody">
+              <div class="skillsWindowInner" id="skillsWindowInner">
+                <div class="page skillsPage">
+                  <div class="pageInner">
+                    <p class="pageHeading headingLeft">SKILLS</p>
+                    <div class="skillsFrontEnd skill">
+                      <p class="titleSkillsFrontEnd">Front End</p>
+                      <p class="topSkill individualSkill">HTML</p>
+                      <img
+                        src="/Portfolio/imgs/htmlLoadingBar.png"
+                        alt=""
+                        class="topLoadingBar loadingBar"
+                      />
+                      <p class="midSkill individualSkill">CSS</p>
+                      <img
+                        src="/Portfolio/imgs/cssLoadingBar.png"
+                        alt=""
+                        class="midLoadingBar loadingBar"
+                      />
+                      <p class="bottomSkill individualSkill">JavaScript</p>
+                      <img
+                        src="/Portfolio/imgs/jsLoadingBar.png"
+                        alt=""
+                        class="bottomLoadingBar loadingBar"
+                      />
+                    </div>
+                    <div class="skillsBackEnd skill">
+                      <p class="titleSkillsFrontEnd">Back End</p>
+                      <p class="topSkill individualSkill">Firebase</p>
+                      <img
+                        src="/Portfolio/imgs/fbLoadingBar.png"
+                        alt=""
+                        class="topLoadingBar loadingBar"
+                      />
+                      <p class="midSkill individualSkill">SQL</p>
+                      <img
+                        src="/Portfolio/imgs/sqlLoadingBar.png"
+                        alt=""
+                        class="midLoadingBar loadingBar"
+                      />
+                    </div>
+                    <div class="skillsDesign skill">
+                      <p class="titleSkillsFrontEnd">Design</p>
+                      <p class="topSkill individualSkill">Photoshop</p>
+                      <img
+                        src="/Portfolio/imgs/psLoadingBar.png"
+                        alt=""
+                        class="topLoadingBar loadingBar"
+                      />
+                      <p class="midSkill individualSkill">Figma</p>
+                      <img
+                        src="/Portfolio/imgs/figmaLoadingBar.png"
+                        alt=""
+                        class="midLoadingBar loadingBar"
+                      />
+                      <p class="bottomSkill individualSkill">Premiere Pro</p>
+                      <img
+                        src="/Portfolio/imgs/prLoadingBar.png"
+                        alt=""
+                        class="bottomLoadingBar loadingBar"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
         </div>
       </div>
 
       <div class="taskbar">
         <div class="activeWindow">
-          <div class="itemTaskbar">
-            <span><img class="itemTaskbarImage" /></span>
+           <div class="aboutMeItemTaskbar dnone" id="aboutMeItemTaskbar">
+            <div><img class="aboutMeItemTaskbarImage" src="imgs/userIcon.png"/></div>
           </div>
+          <div class="skillsItemTaskbar dnone" id="skillsItemTaskbar">
+            <div><img class="skillsItemTaskbarImage" src="imgs/skillsIcon.png"/></div>
+          </div> 
+          <div class="educationItemTaskbar dnone" id="educationItemTaskbar">
+            <div><img class="educationItemTaskbarImage" src="imgs/educationIcon.png"/></div>
+          </div> 
         </div>
         <div class="showDesktop">
           <img src="imgs/show_desktop.png" alt="" class="showDesktopImage" />

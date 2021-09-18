@@ -39,6 +39,10 @@ video {
   display: block;
 }
 
+.dblockk {
+  display: block !important;
+}
+
 /* Boilerplate end */
 .windows {
   position: relative;
@@ -265,7 +269,7 @@ video {
   position: relative;
 }
 
-.window1 {
+.window {
   width: 50%;
   min-width: 350px;
   position: absolute;
@@ -285,21 +289,23 @@ video {
   z-index: 4;
 }
 
-.itemTaskbar {
+.aboutMeItemTaskbar,
+.skillsItemTaskbar,
+.educationItemTaskbar {
   color: white;
   padding: 0 10px;
   background: rgba(177, 177, 159, 0.473);
   height: 30px;
   border: 1px solid black;
-  display: flex !important;
   justify-content: flex-start;
   align-items: center;
   align-content: center;
-  gap: 10px;
   cursor: pointer;
 }
 
-.itemTaskbar:hover {
+.aboutMeItemTaskbar:hover,
+.skillsItemTaskbar:hover,
+.educationItemTaskbar:hover {
   animation: transitionIn 0.1s;
   background: rgba(255, 255, 255, 0.651);
   color: black;
@@ -309,8 +315,11 @@ video {
   background: rgba(255, 255, 255, 0.651);
 }
 
-.itemTaskbar img {
+.aboutMeItemTaskbarImage,
+.skillsItemTaskbarImage,
+.educationItemTaskbarImage {
   height: 20px;
+  width: 20px;
 }
 
 .aboutBody {
@@ -441,7 +450,7 @@ video {
 }
 
 .contentLoadHeight {
-  height: 600px;
+  height: 70vh !important;
 }
 
 .startButton {
@@ -655,7 +664,9 @@ video {
   transform: scale(1.1);
 }
 
-.windowInner {
+.aboutMeWindowInner,
+.skillsWindowInner,
+.educationWindowInner {
   height: 70vh;
   overflow: scroll;
 }
@@ -665,7 +676,9 @@ video {
     margin: 0;
   }
 
-  .windowInner {
+  .aboutMeWindowInner,
+  .skillsWindowInner,
+  .educationWindowInner {
     height: 90vh;
   }
 
