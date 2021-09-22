@@ -3,6 +3,8 @@
 @media only screen and (max-width: 600px) {
   .heading {
     width: 90% !important;
+    padding-top: 20px !important;
+    padding-bottom: 5px !important;
   }
 
   .profileHeading {
@@ -10,7 +12,7 @@
   }
 
   .profileContent {
-    font-size: 1.3rem !important;
+    font-size: 1rem !important;
     font-weight: 400 !important;
   }
 
@@ -59,7 +61,7 @@
   margin: 0 auto;
   min-height: 100vh;
   padding-bottom: 100px;
-  padding-top: 100px;
+  padding-top: 20px;
 }
 
 .profileImage {
@@ -85,7 +87,7 @@
   margin-top: 50px !important;
   margin: 0 auto;
   font-weight: 300;
-  font-size: 2rem;
+  font-size: 1.2rem;
   text-align: justify;
 }
 
@@ -93,7 +95,7 @@
   padding-top: 150px;
   padding-bottom: 150px;
   width: 100%;
-  min-height: 100vh;
+  overflow: scroll;
   display: flex;
   align-items: center;
 }
@@ -195,20 +197,24 @@
 }
 
 .titleSkillsFrontEnd {
-  font-weight: 700;
-  font-size: 2rem;
+  font-weight: 800;
+  font-size: 1.5rem;
   position: absolute;
   top: 5px;
   left: 5px;
   color: black;
+  letter-spacing: 5px;
+  text-transform: uppercase;
 }
 
 .individualSkill {
   position: absolute;
   font-style: normal;
+  font-size: 1.2rem;
   font-weight: 500;
   color: black;
   left: 15px;
+  letter-spacing: 2px;
 }
 
 .loadingBar {
@@ -222,11 +228,11 @@
 }
 
 .topSkill {
-  top: 65px;
+  top: 80px;
 }
 
 .midSkill {
-  top: 165px;
+  top: 180px;
 }
 
 .midLoadingBar {
@@ -234,7 +240,7 @@
 }
 
 .bottomSkill {
-  top: 265px;
+  top: 280px;
 }
 
 .bottomLoadingBar {
@@ -330,4 +336,21 @@
 .lightMedium {
   font-weight: 300;
   font-size: 1.2rem;
+}
+
+.project {
+  width: 40%;
+  min-width: 300px;
+  position: relative;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.project:hover {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+  transform: scale(1.1);
 }

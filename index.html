@@ -19,7 +19,7 @@
       <div class="bgimg" id="back5"></div>
     </div>
     <div class="windows">
-      <div class="loginScreen">
+      <div class="loginScreen" id="loginScreen">
         <div class="userAccountLoginScreen"><span>Aman Sammy</span></div>
       </div>
       <div class="desktop">
@@ -35,9 +35,151 @@
             <span>Projects</span>
           </div>
           <div class="resumeIcon icon" id="resumeIcon"><span>Resume</span></div>
+         <!--  <div class="contactIcon icon" id="contactIcon"><span>Contact</span></div> -->
+          <div class="notepadIcon icon" id="notepadIcon"><span>Notepad</span></div>
         </div>
+        
 
         <div class="individualWindows">
+
+          <div class="window glass projectsWindow" id="projectsWindow">
+            <div class="title-bar">
+              <div class="title-bar-text">Projects</div>
+              <div class="title-bar-controls">
+                <button aria-label="Minimize" class="projectsMinimizeButton"></button>
+                <button aria-label="Maximize" class="projectsMaximizeButton"></button>
+                <button
+                  aria-label="Restore"
+                  class="projectsRestoreButton dnone"
+                ></button>
+                <button aria-label="Close" class="projectsCloseButton"></button>
+              </div>
+            </div>
+            <div class="window-body">
+              <div class="projectsWindowInner">
+                  <div class="projectsInner">
+                    <a href="https://amansammy.github.io/WallOfNotes/"><img class="project" src="/Portfolio/imgs/wallOfNotes.png" alt="" /></a>
+                    <a href="https://amansammy.github.io/cosmos"><img class="project" src="/Portfolio/imgs/cosmos.png" alt="" /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="window glass contactWindow" id="contactWindow">
+            <div class="title-bar">
+              <div class="title-bar-text">Contact Me</div>
+              <div class="title-bar-controls">
+                <button aria-label="Minimize" class="contactMinimizeButton"></button>
+                <button aria-label="Maximize" class="contactMaximizeButton"></button>
+                <button
+                  aria-label="Restore"
+                  class="contactRestoreButton dnone"
+                ></button>
+                <button aria-label="Close" class="contactCloseButton"></button>
+              </div>
+            </div>
+            <form id="contactForm">
+            <div class="field-row-stacked" style="width: 300px; padding: 10px 20px; margin: 0 auto;">
+              <label for="text22">Name</label>
+              <input id="text22" type="text" />
+            </div>
+            <div class="field-row-stacked" style="width: 300px; padding: 10px 20px; margin: 0 auto;">
+              <label for="text23">Email</label>
+              <input id="text23" type="email" />
+            </div>
+            <div class="field-row-stacked" style="width: 300px; padding: 20px; margin: 0 auto;">
+              <label for="text24">Message</label>
+              <textarea id="text24" rows="8"></textarea>
+            </div>
+            <section class="field-row" style="justify-content: center; margin-bottom: 30px;">
+              <button type="submit" value="Send">Submit</button>
+            </section>
+            </form>
+            </div> -->
+
+          <div class="window glass notepadWindow" id="notepadWindow">
+            <div class="title-bar">
+              <div class="title-bar-text">Notepad</div>
+              <div class="title-bar-controls">
+                <button aria-label="Minimize" class="notepadMinimizeButton"></button>
+                <button aria-label="Maximize" class="notepadMaximizeButton"></button>
+                <button
+                  aria-label="Restore"
+                  class="notepadRestoreButton dnone"
+                ></button>
+                <button aria-label="Close" class="notepadCloseButton"></button>
+              </div>
+            </div>
+
+            
+
+
+            <ul role="menubar">
+              <li role="menuitem" tabindex="0" aria-haspopup="true">
+                File
+                <ul role="menu">
+                  <li role="menuitem"><a href="#menu">Open</a></li>
+                  <li role="menuitem"><a href="#menu">Save</a></li>
+                  <li role="menuitem"><a href="#menu">Save As...</a></li>
+                  <li role="menuitem"><a href="#menu">Exit</a></li>
+                </ul>
+              </li>
+              <li role="menuitem" tabindex="0" aria-haspopup="true">
+                Edit
+                <ul role="menu">
+                  <li role="menuitem"><a href="#menu">Undo</a></li>
+                  <li role="menuitem"><a href="#menu">Copy</a></li>
+                  <li role="menuitem"><a href="#menu">Cut</a></li>
+                  <li role="menuitem"><a href="#menu">Paste</a></li>
+                  <li role="menuitem"><a href="#menu">Delete</a></li>
+                  <li role="menuitem"><a href="#menu">Find...</a></li>
+                  <li role="menuitem"><a href="#menu">Replace...</a></li>
+                  <li role="menuitem"><a href="#menu">Go to...</a></li>
+                </ul>
+              </li>
+              <li role="menuitem" tabindex="0" aria-haspopup="true">
+                View
+                <ul role="menu">
+                  <li role="menuitem" tabindex="0" aria-haspopup="true">
+                    Zoom
+                    <ul role="menu">
+                      <li role="menuitem"><button>Zoom In</button></li>
+                      <li role="menuitem"><button>Zoom Out</button></li>
+                    </ul>
+                  </li>
+                  <li role="menuitem"><a href="#menu">Status Bar</a></li>
+                </ul>
+              </li>
+              <li role="menuitem" tabindex="0" aria-haspopup="true">
+                Help
+                <ul role="menu">
+                  <li role="menuitem"><a href="#menu">View Help</a></li>
+                  <li role="menuitem"><a href="#menu">About</a></li>
+                </ul>
+              </li>
+            </ul>
+
+            <textarea name="notepadTextArea" class = "normalHeight" id="notepadTextArea"></textarea>
+
+          </div>
+
+
+          <div class="window glass resumeWindow" id="resumeWindow">
+            <div class="title-bar">
+              <div class="title-bar-text">Download Resume</div>
+              <div class="title-bar-controls">
+                <button aria-label="Minimize" class="resumeMinimizeButton"></button>
+                <button aria-label="Close" class="resumeCloseButton"></button>
+              </div>
+            </div>
+            <div class="window-body resumeWindowBody">
+              <p>Do you want to download resume.pdf?</p>
+              <button type="submit" class="resumeYesButton" onclick="window.open('files/resume.docx')">Yes</button>
+              <button class="resumeCancelButton">Cancel</button>
+            </div>
+          </div>
+
+
           <div class="window glass userWindow" id="userWindow">
             <div class="title-bar">
               <div class="title-bar-text">About Me</div>
@@ -84,9 +226,11 @@
               </div>
             </div>
           </div>
+
+
           <div class="window glass educationWindow" id="educationWindow">
             <div class="title-bar">
-              <div class="title-bar-text">About Me</div>
+              <div class="title-bar-text">Education</div>
               <div class="title-bar-controls">
                 <button aria-label="Minimize" class="educationMinimizeButton"></button>
                 <button aria-label="Maximize" class="educationMaximizeButton"></button>
@@ -101,7 +245,6 @@
               <div class="educationWindowInner" id="educationWindowInner">
                 <div class="page educationPage">
                   <div class="pageInner">
-                    <div class="pageHeading headingRight">EDUCATION</div>
                     <div class="middleLine">
                       <div class="dot top50px"></div>
                       <div class="yearText top50px left-55px">
@@ -135,11 +278,12 @@
                 </div>
               </div>
               </div>
-
               </div>
+
+              
           <div class="window glass skillsWindow" id="skillsWindow">
             <div class="title-bar">
-              <div class="title-bar-text">About Me</div>
+              <div class="title-bar-text">Skills</div>
               <div class="title-bar-controls">
                 <button aria-label="Minimize" class="skillsMinimizeButton"></button>
                 <button aria-label="Maximize" class="skillsMaximizeButton"></button>
@@ -154,7 +298,6 @@
               <div class="skillsWindowInner" id="skillsWindowInner">
                 <div class="page skillsPage">
                   <div class="pageInner">
-                    <p class="pageHeading headingLeft">SKILLS</p>
                     <div class="skillsFrontEnd skill">
                       <p class="titleSkillsFrontEnd">Front End</p>
                       <p class="topSkill individualSkill">HTML</p>
@@ -222,14 +365,26 @@
       <div class="taskbar">
         <div class="activeWindow">
            <div class="aboutMeItemTaskbar dnone" id="aboutMeItemTaskbar">
-            <div><img class="aboutMeItemTaskbarImage" src="imgs/userIcon.png"/></div>
+            <div><img class="aboutMeItemTaskbarImage" src="imgs/userIcon.png"/><span class="taskbarSpan">About Me</span></div>
           </div>
           <div class="skillsItemTaskbar dnone" id="skillsItemTaskbar">
-            <div><img class="skillsItemTaskbarImage" src="imgs/skillsIcon.png"/></div>
+            <div><img class="skillsItemTaskbarImage" src="imgs/skillsIcon.png"/><span class="taskbarSpan">Skills</span></div>
           </div> 
           <div class="educationItemTaskbar dnone" id="educationItemTaskbar">
-            <div><img class="educationItemTaskbarImage" src="imgs/educationIcon.png"/></div>
-          </div> 
+            <div><img class="educationItemTaskbarImage" src="imgs/educationIcon.png"/><span class="taskbarSpan">Education</span></div>
+          </div>
+          <div class="resumeItemTaskbar dnone" id="resumeItemTaskbar">
+            <div><img class="resumeItemTaskbarImage" src="imgs/pdfIcon.png"/><span class="taskbarSpan">Resume</span></div>
+          </div>  
+          <div class="notepadItemTaskbar dnone" id="notepadItemTaskbar">
+            <div><img class="notepadItemTaskbarImage" src="imgs/notepadIcon.png"/><span class="taskbarSpan">Notepad</span></div>
+          </div>  
+          <!-- <div class="contactItemTaskbar dnone" id="contactItemTaskbar">
+            <div><img class="contactItemTaskbarImage" src="imgs/contactIcon.png"/><span class="taskbarSpan">Contact Me</span></div>
+          </div> -->
+          <div class="projectsItemTaskbar dnone" id="projectsItemTaskbar">
+            <div><img class="projectsItemTaskbarImage" src="imgs/projectsIcon.png"/><span class="taskbarSpan">Projects</span></div>
+          </div>    
         </div>
         <div class="showDesktop">
           <img src="imgs/show_desktop.png" alt="" class="showDesktopImage" />
@@ -247,13 +402,13 @@
           <div class="startMenu" id="startMenu">
             <div class="startMenuUserIcon"></div>
             <div class="startMenuLeftContainer">
-              <p>About Me</p>
-              <p>Resume</p>
-              <p>Education</p>
-              <p>Projects</p>
-              <p>Resume</p>
-              <p>Made by</p>
-              <p>Aman Sammy</p>
+              <p>Acrobat Reader DC</p>
+              <p>Adobe Photoshop</p>
+              <p>Google Chrome</p>
+              <p>Office</p>
+              <p>Steam</p>
+              <p style="letter-spacing: 3px; font-style: oblique;">Made by</p>
+              <p style="letter-spacing: 3px; font-weight: 700;">Aman Sammy</p>
               <hr />
               <p style="margin-top: -5px; padding-left: 30px; font-weight: 600">
                 All Programs
@@ -281,6 +436,8 @@
         </div>
       </div>
     </div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="js/contactForm.js"></script>
     <script src="js/script.js"></script>
     <script src="js/time.js"></script>
   </body>
